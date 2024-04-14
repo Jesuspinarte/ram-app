@@ -1,0 +1,59 @@
+#root {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+.content {
+  margin: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 0;
+  padding-bottom: 40px;
+}
+
+.cards-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  width: 1280px;
+}
+
+.filter {
+  &-form {
+    position: sticky;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    background-color: #4f4f4f;
+    box-shadow: 6px 10px 11px 5px rgba(0, 0, 0, 0.33);
+  }
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+  }
+
+  &-label {
+    margin-right: 10px;
+    font-weight: 700;
+  }
+
+  &-input {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  &-button {
+    margin-left: 20px;
+  }
+}
